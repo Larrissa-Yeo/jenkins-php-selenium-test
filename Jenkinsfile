@@ -25,6 +25,7 @@ pipeline {
 					post {
 						always {
 							junit 'target/surefire-reports/*.xml'
+							//temp change for no reason
 						}
 					}
 				}
